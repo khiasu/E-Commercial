@@ -10,7 +10,7 @@ export const PRODUCTS = [
   },
   {
     id: 2,
-    name: "Apex Gaming Mouse",
+    name: "Apex Gaming Tablet",
     description: "Ultra-lightweight gaming mouse with 26k DPI optical sensor.",
     price: 79.99,
     rating: 4.5,
@@ -61,6 +61,51 @@ export const PRODUCTS = [
     rating: 4.4,
     category: "Laptops",
     image: "https://img-prd-pim.poorvika.com/product/Lenovo-ideapad-3-intel-core-i3-13th-gen-windows-11-home-laptop-82x700c7in-arctic-grey-8gb-512gb-Front-View.png"
+  },
+  {
+    id: 8,
+    name: "ASUS Laptop",
+    description: "A powerful and reliable choice for both work and play, this laptop is designed to enhance your productivity.",
+    price: 799.99,
+    rating: 4.5,
+    category: "Laptops",
+    image: "https://www.asus.com/media/Odin/Websites/global/ProductLine/20200824120814.jpg"
+  },
+  {
+    id: 9,
+    name: " Laptop",
+    description: "A powerful and reliable choice for both work and play, this laptop is designed to enhance your productivity.",
+    price: 999.99,
+    rating: 4.5,
+    category: "Laptops",
+    image: "https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/original/hp/494422627/0/KLB75uUN3V-pR8b-doFmu-HP-Victus-15-Laptop-494422627-i-1-1200Wx1200H.jpeg"
+  },
+  {
+    id: 10,
+    name: "Apex Gaming Keyboard",
+    description: "Ultra-lightweight gaming mouse with 26k DPI optical sensor.",
+    price: 200.99,
+    rating: 4.5,
+    category: "Gaming",
+    image: "https://5.imimg.com/data5/SELLER/Default/2021/11/JF/IT/OB/22794873/gaming-keyboards.jpg"
+  },
+  {
+    id: 11,
+    name: "Apex Gaming Mouse",
+    description: "Ultra-lightweight gaming mouse with 26k DPI optical sensor.",
+    price: 100.99,
+    rating: 4.5,
+    category: "Gaming",
+    image: "https://www.mytrendyphone.eu/images/6D-4-Speed-DPI-RGB-Gaming-Mouse-G5-Black-05042021-01-p.webp"
+  },
+  {
+    id: 12,
+    name: "Sennheiser ACCENTUM Hybrid Noise-Canceling Wireless Headphones",
+    description: "Boasting an extraordinary 50-hour battery life, the Sennheiser ACCENTUM Hybrid Noise-Canceling Wireless Headphones provide extended listening pleasure.",
+    price: 399.99,
+    rating: 4.8,
+    category: "Audio",
+    image: "https://www.theaudiostore.in/cdn/shop/files/sennheiser-accentum-hybrid-noise-canceling-wireless-headphones-black-41622095659263.jpg?v=1744394599"
   }
 ];
 
