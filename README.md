@@ -17,8 +17,7 @@ A professional, clean, and user-friendly e-commerce frontend built with Next.js 
 - **Framework**: [Next.js 16 (App Router)](https://nextjs.org/)
 - **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
 - **Language**: JavaScript (React 19)
-- **Deployment**: [Replit](https://replit.com)
-
+- 
 ## 📦 Getting Started
 
 ### Installation
