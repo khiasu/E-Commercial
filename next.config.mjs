@@ -5,6 +5,7 @@ const nextConfig = {
     '.replit.dev',
     '.replit.app'
   ],
+  transpilePackages: ["@clerk/nextjs"],
 };
 
 export default nextConfig;
