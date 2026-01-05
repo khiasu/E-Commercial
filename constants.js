@@ -52,6 +52,15 @@ export const PRODUCTS = [
     rating: 4.4,
     category: "Gaming",
     image: "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?w=500&q=80"
+  },
+  {
+    id: 7,
+    name: "Lenovo Laptop",
+    description: "A powerful and reliable choice for both work and play, this laptop is designed to enhance your productivity.",
+    price: 599.99,
+    rating: 4.4,
+    category: "Laptops",
+    image: "https://img-prd-pim.poorvika.com/product/Lenovo-ideapad-3-intel-core-i3-13th-gen-windows-11-home-laptop-82x700c7in-arctic-grey-8gb-512gb-Front-View.png"
   }
 ];
 
