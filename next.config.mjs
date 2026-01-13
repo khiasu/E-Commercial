@@ -1,10 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  allowedDevOrigins: [
-    '*',
-    '.replit.dev',
-    '.replit.app'
-  ],
   async headers() {
     return [
       {
