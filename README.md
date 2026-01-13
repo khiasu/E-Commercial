@@ -1,49 +1,50 @@
-# TechStore - Premium E-commerce Interface
+# TechStore - E-commerce Site
 
-A professional, clean, and user-friendly e-commerce frontend built with Next.js 16 and Tailwind CSS 4. This project focuses on high-quality UI/UX, smooth navigation, and client-side interactivity.
+A clean e-commerce site built with Next.js and Tailwind CSS. Good for learning and contributing.
 
-## 🚀 Features
+## What it has
 
-- **Dynamic Hero Carousel**: Visually engaging slides with auto-play and manual controls.
-- **Interactive Product Grid**: Filterable product list with "Add to Cart" and wishlist functionality.
-- **Real-time Search**: Instant product filtering by name, category, or description.
-- **Smart Navigation**: Smooth scrolling to Home, Products, and My Orders sections.
-- **Slide-out Shopping Cart**: Full cart management (add, remove, quantity) with dynamic subtotal.
-- **Responsive Design**: Optimized for mobile, tablet, and desktop viewing.
-- **Newsletter Subscription**: Professional subscription section with UI validation.
+- Product carousel that auto-plays
+- Product grid with add to cart
+- Search and filter products
+- Shopping cart slide-out
+- Works on mobile and desktop
+- Newsletter signup
 
-## 🛠 Tech Stack
+## Tech stuff
 
-- **Framework**: [Next.js 16 (App Router)](https://nextjs.org/)
-- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
-- **Language**: JavaScript (React 19)
-- 
-## 📦 Getting Started
+- Next.js 16
+- Tailwind CSS 4
+- React 19
+- Clerk for auth
 
-### Installation
+## How to run it
 
-1. Clone the repository
+1. Clone the repo
 2. Install dependencies:
    ```bash
    npm install
    ```
+3. Run dev server:
+   ```bash
+   npm run dev
+   ```
 
-### Development
+## Deploy to Vercel
 
-Run the development server:
-```bash
-npm run dev -- -p 5000 -H 0.0.0.0
-```
+1. Push your code to GitHub
+2. Go to vercel.com
+3. Import your GitHub repo
+4. Click Deploy
 
-The application will be accessible at `http://0.0.0.0:5000` or via your Replit proxy URL.
+That's it. Vercel will build and deploy your site automatically.
 
-## 📁 Project Structure
+## Project structure
 
-- `app/` - Next.js App Router pages and layouts.
-- `components/` - Reusable UI components.
-- `constants.js` - Static data for products, categories, and hero slides.
-- `public/` - Static assets like images and icons.
+- `app/` - Next.js pages
+- `constants.js` - Product data
+- `public/` - Images and stuff
 
-## 📄 License
+## License
 
-This project is licensed under the MIT License.
+MIT
