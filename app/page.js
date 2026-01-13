@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect, useMemo } from "react";
-import { SignInButton, UserButton, SignedIn, SignedOut } from "@clerk/nextjs";
 import { PRODUCTS, CATEGORIES, HERO_SLIDES } from "../constants";
 
 export default function Home() {
@@ -136,16 +135,9 @@ export default function Home() {
                 <span className="absolute left-3 top-2.5 text-gray-400">🔍</span>
               </div>
               
-              <SignedOut>
-                <SignInButton mode="modal">
-                  <button className="text-sm font-semibold text-gray-700 hover:text-blue-600 transition-colors">
-                    Sign In
-                  </button>
-                </SignInButton>
-              </SignedOut>
-              <SignedIn>
-                <UserButton afterSignOutUrl="/" />
-              </SignedIn>
+              <button className="text-sm font-semibold text-gray-700 hover:text-blue-600 transition-colors">
+                Sign In
+              </button>
 
               <button 
                 className="relative p-2 text-gray-500 hover:text-blue-600 transition-colors"
